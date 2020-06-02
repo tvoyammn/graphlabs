@@ -28,3 +28,10 @@ Lab 5</br>
 ![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck1.jpg)
 ![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck2.jpg)
 ![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck3.jpg)
+</br>
+</br>
+</br>
+Lab 6</br>
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon1.jpg)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon2.jpg)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon3.jpg)
