@@ -25,6 +25,6 @@ Lab 4</br>
 </br>
 </br>
 Lab 5</br>
-![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck1.png)
-![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck2.png)
-![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck3.png)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck1.jpg)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck2.jpg)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab5/duck3.jpg)
