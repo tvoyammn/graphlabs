@@ -60,7 +60,7 @@ public class Duck extends JFrame {
     }
 
     private void addModelToUniverse() throws IOException{
-        scene = getSceneFromFile("source_folder//10602_Rubber_Duck_v1_L3.obj");
+        scene = getSceneFromFile("source_folder//duck.obj");
         root=scene.getSceneGroup();
     }
 
@@ -93,8 +93,8 @@ public class Duck extends JFrame {
         transform3D.setScale(0.5f);
         wholeDuck.setTransform(transform3D);
 
-        root.removeChild(nameMap.get("10602_rubber_duck_v1"));
-        wholeDuck.addChild(nameMap.get("10602_rubber_duck_v1"));
+        root.removeChild(nameMap.get("duck"));
+        wholeDuck.addChild(nameMap.get("duck"));
         wholeDuck.setCapability(TransformGroup.ALLOW_TRANSFORM_WRITE);
         root.addChild(wholeDuck);
     }
@@ -120,12 +120,12 @@ public class Duck extends JFrame {
 
     private void addAppearance(){
         Appearance duckAppearance = new Appearance();
-        duckAppearance.setTexture(getTexture("source_folder//app.jpg"));
+        duckAppearance.setTexture(getTexture("source_folder//duckTexture.jpg"));
         TextureAttributes texAttr = new TextureAttributes();
         texAttr.setTextureMode(TextureAttributes.COMBINE);
         duckAppearance.setTextureAttributes(texAttr);
         duckAppearance.setMaterial(getMaterial());
-        Shape3D duck = nameMap.get("10602_rubber_duck_v1");
+        Shape3D duck = nameMap.get("duck");
         duck.setAppearance(duckAppearance);
     }
 
@@ -184,9 +184,11 @@ public class Duck extends JFrame {
 
     public static void main(String[]args){
         try {
-            Duck window = new Duck();
-            AnimationDuck duckMovement = new AnimationDuck(wholeDuck, transform3D, window);
-            window.setVisible(true);
+            Duck duck = new Duck();
+            Eagle eagle = new Eagle();
+            AnimationDuck duckMovement = new AnimationDuck(wholeDuck, transform3D, duck);
+            duck.setVisible(true);
+            eagle.setVisible(true);
         }
         catch (IOException ex) {
             System.out.println(ex.getMessage());
