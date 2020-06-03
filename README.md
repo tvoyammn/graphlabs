@@ -32,6 +32,6 @@ Lab 5</br>
 </br>
 </br>
 Lab 6</br>
-![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon1.jpg)
-![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon2.jpg)
-![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon3.jpg)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon1.png)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon2.png)
+![Image description](https://github.com/tvoyammn/graphlabs/blob/master/graph-lab6/pokemon3.png)
